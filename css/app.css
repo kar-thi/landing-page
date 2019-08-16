@@ -1,0 +1,401 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  border-radius: 0.3rem;
+  background: linear-gradient(to right, #ffffff 0%, #4e4e4e 98%, #424242 100%);
+}
+
+.banner-content {
+  padding-top: 140px;
+}
+
+.banner-content h3 {
+  margin: 0;
+  color: #190a32;
+  font-size: 42px;
+  line-height: 60px;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+
+.banner-content p {
+  margin: 0;
+  color: #666666;
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 54px;
+}
+.thm-btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 28px;
+  padding: 15px 29px;
+  position: relative;
+}
+
+.banner-content .thm-btn {
+  -webkit-box-shadow: 0px 12px 30px rgba(108, 143, 241, 0.58);
+  box-shadow: 0px 12px 30px rgba(108, 143, 241, 0.58);
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.thm-outline {
+  padding: 13px 27px;
+  background: #fff;
+  color: #333;
+  border: 2px #6e92f6 solid;
+  box-shadow: none !important;
+}
+
+.thm-outline:hover {
+  padding: 15px 29px;
+  border: none;
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
+  color: #ffffff;
+  -webkit-box-shadow: 0px 12px 30px rgba(108, 143, 241, 0.58);
+  box-shadow: 0px 12px 30px rgba(108, 143, 241, 0.58);
+}
+
+.sec-title {
+  margin-bottom: 100px;
+  margin-top: 5rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.sec-title h2 {
+  font-size: 32px;
+  color: #170b35;
+  font-weight: 600;
+}
+.sec-title h2,
+.sec-title p {
+  margin: 0;
+}
+.sec-title p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #656565;
+  margin-top: 20px;
+}
+/* owl */
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #3f51b5;
+}
+
+.my-1 .item {
+  background-color: white;
+  margin: 0 auto;
+  width: 300px;
+}
+.my-1 .item > img {
+  width: 240px;
+}
+
+.my-1 .item > h4 {
+  margin: 0;
+}
+
+.my-1 .owl-nav > .owl-prev,
+.my-1 .owl-nav > .owl-next {
+  position: absolute;
+  top: 50%;
+  left: -50px;
+  transform: translateY(-50%);
+  margin: 0 !important;
+}
+
+.my-1 .owl-nav > .owl-next {
+  left: auto;
+  right: -50px;
+}
+
+.my-1 .owl-dots {
+  display: none;
+}
+.lang {
+  width: 70px;
+  height: 70px;
+  background-color: #666;
+  text-align: center;
+}
+.lang > span {
+  font-size: 35px;
+  color: white;
+  display: block;
+  padding-top: 10px;
+  font-weight: 500;
+}
+.product {
+  text-align: center;
+  font-weight: 600;
+}
+.product > .p-name {
+  padding-top: 20px;
+  line-height: 20px;
+  overflow: hidden;
+  max-height: 82px;
+  font-size: 14px;
+}
+.product > .p-price {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+.owl-nav i {
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 25px;
+  position: relative;
+  top: 3px;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  color: #fff;
+  font-size: 14px;
+  margin: 5px;
+  padding: 3px 8px;
+  background: #eaeaea;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0%;
+}
+
+/* owl */
+
+.app-features {
+  padding-bottom: 135px;
+}
+
+.single-app-features i {
+  margin-bottom: 1rem;
+  color: #666666;
+  font-size: 45px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  line-height: 50px;
+  height: auto;
+  width: auto;
+}
+.single-app-features h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #150a33;
+  margin-top: 17px;
+  margin-bottom: 17px;
+}
+.single-app-features h3,
+.single-app-features p {
+  margin: 0;
+}
+
+.single-app-features p {
+  letter-spacing: 0.01em;
+  color: #656565;
+  margin-bottom: 20px;
+}
+
+.single-app-features .line {
+  width: 100%;
+  height: 4px;
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.single-app-features {
+  margin: 1rem;
+}
+.single-app-features:hover i {
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.app-features .single-app-features:hover .line {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.single-app-features i {
+  margin-bottom: 1rem;
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.single-app-features .line {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.feature-style-content.pl40 {
+  padding-left: 40px;
+}
+.feature-style-content {
+  padding-top: 50px;
+}
+.pt70 {
+  padding-top: 70px !important;
+}
+
+.p2 {
+  padding-top: 2rem;
+}
+
+.pt5 {
+  padding-top: 5rem;
+}
+
+.pb5 {
+  padding-bottom: 5rem;
+}
+.feature-style-content h3 {
+  margin: 0;
+  color: #150a33;
+  font-size: 32px;
+  line-height: 48px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.feature-style-content > i {
+  font-size: 45px;
+  background: #3f51b5;
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, #3f51b5),
+    color-stop(98%, #6e93f7),
+    color-stop(100%, #6c90f4)
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#3f51b5),
+    color-stop(98%, #6e93f7),
+    to(#6c90f4)
+  );
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1;
+  width: auto;
+  height: auto;
+}

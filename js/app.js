@@ -1,3 +1,4 @@
+
 $(".owl-carousel").owlCarousel({
   loop: true,
   //   margin: 300,
@@ -22,3 +23,6 @@ $(".owl-carousel").owlCarousel({
   autoplayTimeout: 5000,
   autoplayHoverPause: true
 });
+
+
+

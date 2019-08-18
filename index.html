@@ -1,32 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css" />
 
     <link rel="stylesheet" href="css/app.css" />
+
+    <link rel="stylesheet" href="css/animate.css" />
+ 
 
     <script src="https://kit.fontawesome.com/a44526a545.js"></script>
 
@@ -35,61 +25,40 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
 
     <title>App</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- navbar start -->
 
     <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link disabled"
-                href="#"
-                tabindex="-1"
-                aria-disabled="true"
-                >Disabled</a
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a
               >
             </li>
           </ul>
@@ -115,7 +84,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="banner-content">
+            <div class="banner-content wow fadeInLeft">
               <h3>
                 Awesome App for Your<br />
                 Modern Lifestyle
@@ -125,10 +94,10 @@
                 managing your personal budgets.
               </p>
 
-              <button type="button" class="thm-btn">
+              <button type="button" class="thm-btn wow fadeInLeft" data-wow-delay="0.5s">
                 Download App
               </button>
-              <button type="button" class="thm-btn thm-outline">
+              <button type="button" class="thm-btn thm-outline wow fadeInRight" data-wow-delay="0.7s">
                 Discover more
               </button>
             </div>
@@ -136,7 +105,7 @@
           <div class="col-md-6 banner-content">
             <img
               src="images/banner-scr.png"
-              class="img-fluid"
+              class="img-fluid wow fadeInRight" data-wow-delay="0.3s"
               alt="Responsive image"
             />
           </div>
@@ -148,7 +117,7 @@
     <!-- Awesome Apps Features section-->
     <section>
       <div class="container">
-        <div class="sec-title text-center">
+        <div class="sec-title text-center wow fadeIn" data-wow-delay="0.5s">
           <h2>Awesome Apps Features</h2>
           <p>
             A Private Limited is the most popular type of partnership Malta. The
@@ -214,12 +183,13 @@
           <div class="col-md-6">
             <img
               src="images/responsive-moc.png"
-              class="img-fluid"
+              class="img-fluid wow fadeInLeft" data-wow-delay="1s"
               alt="Responsive image"
             />
           </div>
           <div class="col-md-6">
-            <div class="feature-style-content pt70 pl40">
+            <div class="feature-style-content pt70 pl40 wow fadeInRight" data-wow-delay="0.7s"
+            >
               <i class="fas fa-desktop"></i>
               <h3>
                 Responsive Design for All<br />
@@ -235,96 +205,327 @@
                 >Discover <i class="fa fa-angle-right"></i
               ></a>
             </div>
-          </div>
+        </div>
         </div>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="feature-style-content pt70 pl40">
-              <i class="fas fa-desktop"></i>
-              <h3>
-                Responsive Design for All<br />
-                Devices with Quality
-              </h3>
-              <p>
-                In order to design a mobile app that is going to be module<br />
-                downloaded and accessed frequently by users, you need<br />
-                offer an experience that isn’t available elsewhere. Often<br />
-                businesses get caught up.
-              </p>
-              <a href="#" class="more"
-                >Discover <i class="fa fa-angle-right"></i
-              ></a>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img
-              src="images/responsive-moc.png" 
-              class="img-fluid"
-              alt="Responsive image"
-            />
-          </div>
+
         </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- responsive Design end -->
+        <!-- responsive Design end -->
 
-
-    <!-- Latest Integration start -->
-    <section>
+        <!-- Latest Integration start -->
+        <section>
             <section>
-                    <div class="container">
-                      <div class="sec-title text-center">
+                <div class="container">
+                    <div class="sec-title text-center wow fadeIn" data-wow-delay="0.5s">
                         <h2>Designed & Worked by the Latest Integration</h2>
                         <p>
-                                A Private Limited is the most popular type of partnership
-                                Malta. The limited liabilityis, in fact, the only type of the
-                                company allowed by Companies.
+                            A Private Limited is the most popular type of partnership Malta. The limited liabilityis, in fact, the only type of the company allowed by Companies.
                         </p>
 
-
                         <div class="pt5 pb5">
-                            <img src="images/intigration-1-1.png" class="img-fluid"
-                            alt="Responsive image">
-                            <img src="images/intigration-1-2.png" class="img-fluid"
-                            alt="Responsive image">
-                            <img src="images/intigration-1-3.png" class="img-fluid"
-                            alt="Responsive image">
-                            <img src="images/intigration-1-4.png" class="img-fluid"
-                            alt="Responsive image">
-                            <img src="images/intigration-1-5.png" class="img-fluid"
-                            alt="Responsive image">
-
+                            <img src="images/intigration-1-1.png" class="img-fluid" alt="Responsive image">
+                            <img src="images/intigration-1-2.png" class="img-fluid" alt="Responsive image">
+                            <img src="images/intigration-1-3.png" class="img-fluid" alt="Responsive image">
+                            <img src="images/intigration-1-4.png" class="img-fluid" alt="Responsive image">
+                            <img src="images/intigration-1-5.png" class="img-fluid" alt="Responsive image">
 
                         </div>
 
                         <a href="#" class="more">All integration <i class="fa fa-angle-right"></i></a>
 
-                      </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- Latest Integration end -->
+
+            <!-- app screen shot start -->
+
+            <section>
+            <div class="container">
+                
+                <div class="sec-title text-center wow fadeIn" data-wow-delay="0.5s">
+                    <h2>App ScreenShots</h2>
+                    <p>
+                        A Private Limited is the most popular type of partnership Malta. The limited liability
+                        is, in fact, the only type of company allowed by Companies.
+                                                
+                    </p>
+
+                </div>
+                <div class="gallery-wrap">
+                  <div class="screenshotitem item-1"></div>
+                  <div class="screenshotitem item-2"></div>
+                  <div class="screenshotitem item-3"></div>
+                  <div class="screenshotitem item-4"></div>
+                  <div class="screenshotitem item-5"></div>
+                </div>
+               </div>
+              </section>
+              
+
+               <!-- app screen shot end -->
+
+
+               <!-- Start Counter start -->
+               <section class="mt-5 mt-6">
+                 <div class="container-fluid counter-1">
+<div class="row">
+  <div class="col-md-6 counter-left-block">
+    <span class="number">950 890</span>
+    <span class="number-desc">Downloads</span>
+  </div>
+
+  <div class="col-md-6 counter-right-block">
+    <span class="number">3 790 500</span>
+    <span class="number-desc">Daily Views</span>
+  </div>
+
+</div>
+
+
+                 </div>
+               </section>
+               <!-- Start Counter end -->
+
+                  <!-- review start -->
+            <section>
+                <div class="container">
+
+                    <div class="sec-title text-center wow fadeIn" data-wow-delay="0.5s">
+                        <h2>Customer Review</h2>
+                        <p>
+                            A Private Limited is the most popular type of partnership
+                        </p>
+
                     </div>
 
-    </section>
-     <!-- Latest Integration end -->
+                    <div id="works-carousel" class="owl-carousel owl-theme">
+                        <div class="item">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/app.js"></script>
+                            <div class="card m-2 mb-3 test-grid text-left px-lg-3">
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+                                <div class="card-body">
+
+                                    <div class="test-info">
+
+                                        <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
+                                        <h3 class="mt-md-4 mt-3"> Abraham Smith</h3>
+
+                                        <div class="test-img text-center mb-3">
+                                            <img src="images/team.jpg" class="img-fluid" alt="user-image">
+                                        </div>
+                                        <div class="mobl-footer test-soc text-center">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook-f"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="mx-1">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+
+                            <div class="card m-2 mb-3 test-grid text-left px-lg-3">
+
+                                <div class="card-body">
+
+                                    <div class="test-info">
+
+                                        <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
+                                        <h3 class="mt-md-4 mt-3"> Mariana Noe</h3>
+                                        <div class="test-img text-center mb-3">
+                                            <img src="images/team1.jpg" class="img-fluid" alt="user-image">
+                                        </div>
+                                        <div class="mobl-footer test-soc text-center">
+                                            <ul class="list-unstyled">
+
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-dribbble"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="ml-1">
+                                                    <a href="#">
+                                                        <span class="fa fa-vk"></span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="item">
+                            <div class="card m-2 mb-3 test-grid text-left px-lg-3">
+
+                                <div class="card-body">
+
+                                    <div class="test-info">
+
+                                        <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
+                                        <h3 class="mt-md-4 mt-3">Nebula Nairobi</h3>
+
+                                        <div class="test-img text-center mb-3">
+                                            <img src="images/team2.jpg" class="img-fluid" alt="user-image">
+                                        </div>
+                                        <div class="mobl-footer test-soc text-center">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="#">
+                                                        <span class="fa fa-facebook-f"></span>
+                                                    </a>
+                                                </li>
+                                                <li class="mx-1">
+                                                    <a href="#">
+                                                        <span class="fa fa-twitter"></span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- review end -->
+
+<!-- enroll -->
+<section class="enroll">
+  <div class="container-fluid">
+
+      <div class="overlay"></div>
+      <div class="container">
+          <div class="row">
+
+            <div class="col-md-8 download-center-text">
+              <h2>Download app</h2>
+    
+              <button type="button" class="thm-btn wow fadeInLeft" data-wow-delay="0.5s">
+                  Enroll Now
+                </button>
+
+            </div>
+
+          </div> <!-- .row -->
+        </div>
+
+  </div>
+</section>
+<!-- enroll -->
+
+<!-- footer section start -->
+
+<footer>
+  <div class="container">
+<div class="row">
+
+<div class="col-md-3">
+    <div class="title"><h3>Navbar</h3></div>
+
+<p>
+
+    Be the first to find out about exclusive deals, the latest Lookbooks trends. We're on a mission to build a better future where technology.
+</p>
+
+</div>
+<div class="col-md-3">
+<div class="contact-widget">
+    <div class="title"><h3>Address</h3></div>
+    
+    <p><span>Phone:</span> +1-605-722-2032</p>
+    <p><span>Email:</span> example@mail.com</p>
+    <p><span>Address:</span> Charlotte, North Carolina, <br> United States</p>
+</div>
+
+</div>
+<div class="col-md-3">
+
+    <div class="title"><h3>Quick Links</h3></div>
+
+    <ul>
+        <li class="page_item page-item-83"><a href="http://themexriver.net/appilo-wp/blog-listing/">Blog Listing</a></li>
+  <li class="page_item page-item-8 current_page_item"><a href="http://themexriver.net/appilo-wp/">Home</a></li>
+      </ul>
+
+</div>
+<div class="col-md-3"></div>
+
+</div>
+
+  </div>
+</footer>
+<!-- footer section end -->
+
+
+            <!-- Optional JavaScript -->
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+            <script>
+                // 2nd owl
+                $("#works-carousel").owlCarousel({
+                    // items : 2,
+                    //  center: true,
+                    loop: true,
+                    smartSpeed: 650,
+                    nav: false,
+                    navText: [
+                        "<i class='fas fa-angle-left'></i>",
+                        "<i class='fas fa-angle-right'></i>"
+                    ],
+
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 2
+                        }
+                    },
+                    autoplay: true,
+                    autoplayTimeout: 1005000,
+                    autoplayHoverPause: true
+
+                });
+            </script>
+
+            <!-- wow script -->
+            <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+            <script src="js/app.js"></script>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
 </html>

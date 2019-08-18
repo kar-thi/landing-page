@@ -107,7 +107,7 @@ body {
 
 .sec-title {
   margin-bottom: 100px;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 .text-center {
   text-align: center;
@@ -399,3 +399,258 @@ body {
   width: auto;
   height: auto;
 }
+
+
+
+/*-- /testimonials --*/
+
+.test-info h3 {
+  font-size: 0.85em;
+  color: #1e272e;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.test-img img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  padding: 4px;
+  background: rgba(30, 39, 46, 0.12);
+  margin-top: 1em;
+  width: 100px !important;
+    height: 100px !important;
+    float: right;
+}
+
+.mobl-footer.test-soc ul li {
+  display: inline-block;
+  margin: 0 0.3em;
+}
+
+.mobl-footer.test-soc ul li a span {
+  color: #1e272e;
+}
+
+/*-- //testimonials --*/
+
+/* screen shot */
+
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.screenshotitem {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  
+  
+}
+
+.screenshotitem:hover{
+  flex: 7;
+}
+
+.item-1 { 
+  background-image: url('https://images.unsplash.com/photo-1499198116522-4a6235013d63?auto=format&fit=crop&w=1233&q=80');
+}
+
+.item-2 { 
+  background-image: url('https://images.unsplash.com/photo-1492760864391-753aaae87234?auto=format&fit=crop&w=1336&q=80');
+}
+
+.item-3 { 
+  background-image: url('https://images.unsplash.com/photo-1503631285924-e1544dce8b28?auto=format&fit=crop&w=1234&q=80');
+}
+
+.item-4 { 
+  background-image: url('https://images.unsplash.com/photo-1510425463958-dcced28da480?auto=format&fit=crop&w=1352&q=80');
+}
+
+.item-5 { 
+  background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1234&q=80');
+}
+
+
+
+/* screen shot */
+
+
+.text-left {
+  text-align: left !important;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+
+.card {
+  background-color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 2px 6px 12px #c3c3c3;
+}
+
+
+
+/* counter */
+
+
+.counter-1 {
+  /* padding: 0; */
+}
+
+.counter-1 .number {
+  display: block;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: 600;
+}
+
+.counter-1 .number-desc {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.counter-1 .counter-left-block {
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+}
+
+.counter-1 .counter-left-block .number, .counter-1 .counter-left-block .number-desc {
+  color: #fff;
+}
+
+.counter-1 .counter-right-block {
+  padding: 4.5rem 1.5rem;
+  background: transparent;
+  text-align: center;
+}
+
+
+.counter-1 .counter-left-block {
+  background: #3f51b5;
+  background: -webkit-gradient(
+left top,
+right top,
+color-stop(0%, #3f51b5),
+color-stop(98%, #6e93f7),
+color-stop(100%, #6c90f4)
+);
+  background: -webkit-gradient(
+linear,
+left top,
+right top,
+from(#3f51b5),
+color-stop(98%, #6e93f7),
+to(#6c90f4)
+);
+  background: linear-gradient(to right, #3f51b5 0%, #6e93f7 98%, #6c90f4 100%);
+}
+
+/* counter */
+
+
+/* enroll */
+
+.enroll {
+  position: relative;
+  color: #fff;
+  background: url(../images/banner-scr.png) center no-repeat fixed;
+  background-size: cover;
+}
+
+.enroll .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000000;
+    opacity: 0.5;
+}
+
+.enroll .container{
+  padding: 4rem;
+}
+
+.enroll .thm-btn{
+  margin-top: 3rem;
+}
+
+.enroll .download-center-text {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* enroll */
+
+/* footer */
+footer p {
+  color: #1A0A37;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: 500;
+}
+footer p span {
+  color: #170B35;
+  font-weight: 500;
+  padding-right: 5px;
+}
+footer  p {
+  color: #656565;
+  /*margin-bottom: 0px;*/
+}
+
+
+footer .title {
+  margin-bottom: 30px;
+  margin-top:12px;
+}
+footer .title h3 {
+  margin: 0;
+  color: #1A0A37;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+footer ul {
+  position: relative;
+  padding: 0px;
+}
+
+footer ul li.page_item {
+  position: relative;
+  list-style: none;
+  color: #656565;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+footer ul li.page_item a {
+  position: relative;
+  color: #656565;
+  font-size: 14px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+/* footer */
+
